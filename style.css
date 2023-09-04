@@ -1,0 +1,289 @@
+html {
+    font-family: 'Heebo', sans-serif;
+   
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s ease;
+    padding: 10px;
+}
+
+a:hover {
+    color: white;
+    text-decoration: overline;
+    transition: 0.5s ease;
+}
+
+/*Navigation*/
+.nav_list {
+    display: flex;
+    list-style-type: none;
+    background-color: #11F5E3;
+    margin: auto;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.nav_list_item {
+    margin: 10px;
+    background-color: #11F5E3;
+    justify-content: space-between;
+    
+}
+
+.main {
+    margin: 20px;
+    height: 100vh;
+    background-image: linear-gradient(rgba(54, 235, 231,.9),rgba(217,250,247,.9)), url("./src/work_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+}
+
+.main2 {
+    margin: 20px;
+    height: 100vh;
+    background-image: linear-gradient(rgba(54, 235, 231,.9),rgba(217,250,247,.9)), url("./src/work_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*Introduction*/
+
+.intro_section {
+    height: 300px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/*Signing Section*/
+.signing_section {
+    
+    height: 300px;
+    margin: 50px auto;
+    text-align: center;
+    display: flex;
+    justify-content: left;
+}
+
+.signing_section h2 a {
+    padding: 20px;
+}
+
+/*Welcome Section*/
+.welcome_section {
+    display: flex;
+    justify-content: center;
+    background-image: url("./src/office.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color:white;
+}
+
+.welcome_section div {
+    text-align: center;
+    background-color: rgba(54, 235, 231, 0.7);
+    height: 200px;
+    border-radius:  50px;
+    margin: auto;
+}
+
+.welcome_section div a {
+    margin: 10px 20px;
+    
+}
+
+.welcome_section div h1 {
+    margin: 20px 30px;
+}
+
+/*Footer Section*/
+
+.footer_list {
+    list-style-type: none;
+}
+
+.footer_list2 {
+    list-style-type: none;
+}
+
+.footer_section {
+    display: flex;
+    background-color: #11F5E3;
+    font-family: 'Heebo', sans-serif;
+}
+
+/*About Us*/
+
+.profile_section {
+    display:flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.profile_section div {
+    text-align: center;
+    margin: 50px;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.profile {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    position: cover;
+    object-fit:cover;
+    object-position:50% 50%;
+    border-radius: 100px;
+}
+
+.about_img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50px;
+    margin: auto;
+}
+
+.about_container_item {
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
+
+.about_container_item p {
+    font-size: 20px;
+    width: 100px auto;
+    text-align: left;
+}
+
+.about_container {
+    display: flex;
+    justify-content: center;
+}
+
+.event_section {
+    display: flex;;
+    justify-content: center;
+    margin: 20px 50px;
+    width: 600px;
+    height: 400px;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #5773E4 #f0f0f0;
+  }
+  
+  .event_section::-webkit-scrollbar {
+    width: 8px; /* Adjust the width as needed */
+  }
+  
+  .event_section::-webkit-scrollbar-track {
+    background-color: rgb(217,250,247); /* Change color to your preference */
+  }
+  
+  .event_section::-webkit-scrollbar-thumb {
+    background-color: rgb(54, 235, 231); /* Change color to your preference */
+  }
+  
+  .event_item {
+    margin: 40px;
+  }
+  
+  .event_item img {
+    width: 400px;
+    border-radius: 50px;
+  }
+  
+  .event_item h3 {
+    color: white;
+    padding: 10px
+  }
+  .event_item p {
+    color: white;
+    padding: 10px
+  }
+  
+  .event_item h4 {
+    color: white;
+    padding: 10px
+  }
+
+.button {
+    padding: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+  
+.form-input {
+    margin: 10px;
+    
+}
+
+form {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+label {
+    padding: 10px;
+
+}
+input {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #5773E4;
+    border-radius: 20px;
+}
+
+textarea {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #5773E4;
+    border-radius: 20px;
+}
+
+.error {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*View*/
+table, th, td {
+    border-collapse: collapse;
+    padding: 5px;
+}
+table {
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+th {
+    border-radius: 20px;
+}
+
+.view {
+    display: flex;
+    justify-content: center;
+}
+
